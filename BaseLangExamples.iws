@@ -89,20 +89,7 @@
   </component>
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="17a72788-fea3-4edc-8b20-85925dd5a884" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/structure.metadata" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/structure.metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/editor.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseLangExamples.iws" afterPath="$PROJECT_DIR$/BaseLangExamples.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/baseLang_samples/samples.mps" afterPath="$PROJECT_DIR$/solutions/baseLang_samples/samples.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/generator/template/util.mps" afterPath="$PROJECT_DIR$/languages/testLang2/generator/template/util.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/testLang2.mpl" afterPath="$PROJECT_DIR$/languages/testLang2/testLang2.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/dataFlow.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/dataFlow.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/testLang2/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/intentions.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/intentions.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/testLang2Solution/playground.mps" afterPath="$PROJECT_DIR$/solutions/testLang2Solution/playground.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/actions.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/actions.mps" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="BaseLangExamples.iws" />
@@ -145,10 +132,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GivenList" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="12" selection-start="132" selection-end="132" vertical-scroll-proportion="0.09315068" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GivenList" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://unitTest2.structure/GivenList">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
               <inner_tabs>
                 <tab index="0" />
                 <tab index="0" />
@@ -266,6 +260,13 @@
     <option name="ideaSsh" value="false" />
     <option name="GIT_EXECUTABLE" value="/usr/local/git/bin/git" />
     <option name="SSH_EXECUTABLE" value="NATIVE_SSH" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/README" />
+      </list>
+    </option>
   </component>
   <component name="MPSProjectPane">
     <option name="state">
@@ -622,84 +623,6 @@
               <option name="myItemId" value="MyConcepts_Test" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testMethodList : TestMethodList" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testMethod : test_givenList():void" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="body : StatementList" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest2_Playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyConcepts_Test" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testMethodList : TestMethodList" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testMethod : test_givenList():void" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest2_Playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyConcepts_Test" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testMethodList : TestMethodList" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest2_Playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyConcepts_Test" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -732,31 +655,15 @@
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="unitTest2_Playground" />
+                <option name="myItemId" value="baseLang_samples" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="playground" />
+                <option name="myItemId" value="samples" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="MyConcepts_Test" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="testMethodList : TestMethodList" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="testMethod : test_givenList():void" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="body : StatementList" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="statement : ExpressionStatement" />
+                <option name="myItemId" value="BaseLangCollections_Test" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
             </PATH>
@@ -1338,16 +1245,6 @@
     </GetOptions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://unitTest2.generator.template.util/CompareUtils">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://jetbrains.mps.baseLanguage.unitTest.structure/MessageHolder">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
@@ -1453,25 +1350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://jetbrains.mps.baseLanguage.closures.structure/ClosureLiteral">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://unitTest2.actions/init_asserts">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
@@ -1490,16 +1368,6 @@
             <tab index="0" />
             <tab index="0" />
             <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://samples/BaseLangCollections_Test">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
             <tab index="0" />
             <tab index="0" />
           </inner_tabs>
@@ -1528,6 +1396,25 @@
     </entry>
     <entry file="mps://unitTest2.structure/GivenList">
       <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.baseLanguage.closures.structure/ClosureLiteral">
+      <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
           <inner_tabs>
             <tab index="0" />
@@ -1543,6 +1430,21 @@
             <tab index="0" />
           </inner_tabs>
         </state>
+      </provider>
+    </entry>
+    <entry file="mps://samples/BaseLangCollections_Test">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="132" selection-end="132" vertical-scroll-proportion="0.09315068" />
       </provider>
     </entry>
   </component>
