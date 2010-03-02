@@ -34,6 +34,26 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="2">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="AssertList" conceptFQName="unitTest2.structure.AssertList" featureKind="CONCEPT" />
+          <value featureName="GivenList" conceptFQName="unitTest2.structure.GivenList" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="3">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="MyClosure" conceptFQName="unitTest2.structure.MyClosure" featureKind="CONCEPT" />
+          <value featureName="MyClosureLiteral" conceptFQName="unitTest2.structure.MyClosureLiteral" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
@@ -56,24 +76,22 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" version="1" />
+  <languageAspect modelUID="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" version="3" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="2" />
-  <import index="1" modelUID="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" version="1" />
+  <import index="1" modelUID="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" version="3" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-  <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" />
-  <visible index="4" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8793372375416262010">
-    <property name="name" value="AssertList" />
+    <property name="name" value="GivenList" />
     <link role="extends" targetNodeId="2.1068580123157" resolveInfo="Statement" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="8793372375416737074">
-      <property name="value" value="assert list" />
+      <property name="value" value="given list" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8793372375416383807">
       <property name="metaClass" value="aggregation" />
-      <property name="role" value="listExpression" />
+      <property name="role" value="sequenceExpression" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression" />
     </node>
@@ -81,12 +99,10 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="closure" />
       <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="3v.1199569711397" resolveInfo="ClosureLiteral" />
-    </node>
-    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="3705184388148537317">
-      <link role="intfc" targetNodeId="4v.1172075514136" resolveInfo="MessageHolder" />
+      <link role="target" targetNodeId="7281524309419948034" resolveInfo="MyClosureLiteral" />
     </node>
   </node>
+  <visible index="3" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6638220681317433308">
     <property name="name" value="AssertSequence" />
     <link role="extends" targetNodeId="2.1068580123157" resolveInfo="Statement" />
@@ -113,7 +129,7 @@
       <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression" />
     </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6638220681319270324">
-      <link role="intfc" targetNodeId="4v.1172075514136" resolveInfo="MessageHolder" />
+      <link role="intfc" targetNodeId="3v.1172075514136" resolveInfo="MessageHolder" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="93703267107417638">
@@ -139,7 +155,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6478881869179173977">
     <property name="name" value="ShouldBe" />
-    <link role="extends" targetNodeId="4v.1171978097730" resolveInfo="AssertEquals" />
+    <link role="extends" targetNodeId="3v.1171978097730" resolveInfo="AssertEquals" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="6478881869179174252">
       <property name="value" value="should be" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
@@ -148,6 +164,11 @@
       <property name="value" value="should be" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
     </node>
+  </node>
+  <visible index="4" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7281524309419948034">
+    <property name="name" value="MyClosureLiteral" />
+    <link role="extends" targetNodeId="4v.1199569711397" resolveInfo="ClosureLiteral" />
   </node>
 </model>
 
