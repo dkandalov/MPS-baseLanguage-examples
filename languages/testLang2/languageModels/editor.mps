@@ -41,6 +41,7 @@
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="8793372375416383809" />
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="8793372375416383801">
           <property name="text" value="given list" />
+          <link role="styleClass" targetNodeId="6638220681319270322" resolveInfo="Assertion" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="7281524309418904779">
           <property name="attractsFocus" value="2" />
@@ -124,6 +125,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="93703267107417658">
         <property name="separatorText" value="," />
+        <property name="attractsFocus" value="0" />
         <link role="relationDeclaration" targetNodeId="1.93703267107417643" />
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="93703267107417659" />
       </node>
