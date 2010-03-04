@@ -89,13 +89,16 @@
   </component>
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="17a72788-fea3-4edc-8b20-85925dd5a884" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/testLang2.mpl" afterPath="$PROJECT_DIR$/languages/testLang2/testLang2.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/testLang2/generator/template/main@generator.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/editor.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseLangExamples.iws" afterPath="$PROJECT_DIR$/BaseLangExamples.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/baseLang_samples/samples.mps" afterPath="$PROJECT_DIR$/solutions/baseLang_samples/samples.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/languageModels/actions.mps" afterPath="$PROJECT_DIR$/languages/testLang2/languageModels/actions.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLang2/generator/template/util.mps" afterPath="$PROJECT_DIR$/languages/testLang2/generator/template/util.mps" />
     </list>
-    <ignored path="BaseLangExamples.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="BaseLangExamples.iws" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,15 +113,15 @@
   <component name="DefaultSearchOptionsComponent">
     <option class_name="jetbrains.mps.ide.findusages.view.optionseditor.options.FindersOptions">
       <finders>
-        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
         <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeAndDescendantsUsages_Finder" />
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
       </finders>
-    </option>
-    <option class_name="jetbrains.mps.ide.findusages.view.optionseditor.options.ViewOptions">
-      <flags show_one_result="true" new_tab="false" />
     </option>
     <option class_name="jetbrains.mps.ide.findusages.view.optionseditor.options.ScopeOptions">
       <scope_type scope_type="global_scope" module="&lt;default&gt;" model="&lt;default&gt;" />
+    </option>
+    <option class_name="jetbrains.mps.ide.findusages.view.optionseditor.options.ViewOptions">
+      <flags show_one_result="true" new_tab="false" />
     </option>
   </component>
   <component name="FileEditorManager">
@@ -135,53 +138,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClosureLiteral" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://jetbrains.mps.baseLanguage.closures.structure/ClosureLiteral">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyClosureLiteral" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://unitTest2.structure/MyClosureLiteral">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyConcepts_Test" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://playground/MyConcepts_Test">
+      <file leaf-file-name="SubSetOperation" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/SubSetOperation">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
               <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeSetCreator" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/TreeSetCreator">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
                 <tab index="0" />
                 <tab index="0" />
               </inner_tabs>
@@ -196,17 +187,115 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://unitTest2.generator.template.main@generator/main">
+      <file leaf-file-name="GivenList" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://unitTest2.structure/GivenList">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="9">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SequenceLiteral" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://unitTest2.structure/SequenceLiteral">
+      <file leaf-file-name="GivenSet" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://unitTest2.structure/GivenSet">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="9">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoArgumentsSequenceOperation" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/NoArgumentsSequenceOperation">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SequenceOperation" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/SequenceOperation">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="2">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainsAllOperation" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/ContainsAllOperation">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleArgumentSequenceOperation" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/SingleArgumentSequenceOperation">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
               <inner_tabs>
                 <tab index="0" />
                 <tab index="0" />
@@ -458,7 +547,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -469,14 +558,345 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="VCSRoots">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VCS Roots" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <selection />
+        </subPane>
+      </pane>
+      <pane id="FileSystem">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseLangExamples.mpr" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <selection />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="set" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unitTest2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unitTest2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unitTest2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseLang_samples" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseLang_samples" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <selection>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Project" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Modules Pool" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Languages" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="jetbrains" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="mps" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="baseLanguage" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="collections" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="structure" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="set" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="TreeSetCreator" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+            </PATH>
+          </selection>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.BaseLangCollections_Test">
     <configuration default="false" name="test_givenList" type="JUnit" factoryName="JUnit" temporary="true">
@@ -604,31 +1024,31 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="22" width="1438" height="874" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.4943423" order="19" side_tool="false" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32689834" sideWeight="0.38623482" order="34" side_tool="true" x="7" y="356" width="1263" height="540" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32689834" sideWeight="0.519774" order="34" side_tool="true" x="7" y="356" width="1263" height="540" />
       <window_info id="Run Packaging Language Build Script" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" />
       <window_info id="Supertypes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" />
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32705098" sideWeight="0.30769232" order="32" side_tool="true" x="73" y="181" width="1267" height="642" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" />
       <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="31" side_tool="false" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.49717113" order="20" side_tool="false" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="25" side_tool="false" />
       <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="28" side_tool="false" />
       <window_info id="Build Custom MPS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="23" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.49435028" order="7" side_tool="false" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22772278" sideWeight="0.53925353" order="0" side_tool="false" x="721" y="22" width="542" height="807" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22740114" sideWeight="0.64221364" order="0" side_tool="false" x="721" y="22" width="542" height="807" />
       <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="30" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45173746" sideWeight="0.48656294" order="3" side_tool="false" x="6" y="308" width="1257" height="588" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3360324" sideWeight="0.6651885" order="2" side_tool="false" x="1" y="22" width="552" height="807" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45173746" sideWeight="0.46963277" order="3" side_tool="false" x="6" y="308" width="1257" height="588" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23922414" sideWeight="0.53925353" order="2" side_tool="false" x="1" y="22" width="552" height="807" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="14" side_tool="false" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.47810733" order="18" side_tool="false" />
-      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45173746" sideWeight="0.50848657" order="33" side_tool="true" x="5" y="405" width="1262" height="566" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.4752825" order="18" side_tool="false" />
+      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34877735" sideWeight="0.5374294" order="33" side_tool="true" x="5" y="405" width="1262" height="566" />
       <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34877735" sideWeight="0.4688826" order="24" side_tool="false" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34877735" sideWeight="0.45762712" order="24" side_tool="false" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.4872814" order="17" side_tool="false" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38610038" sideWeight="0.74964637" order="4" side_tool="false" />
@@ -659,11 +1079,11 @@
             <children>
               <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
                 <children />
-                <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+                <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeAndDescendantsUsages_Finder" />
               </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
               <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
                 <children />
-                <finder class_name="jetbrains.mps.lang.structure.findUsages.ConceptInstances_Finder" />
+                <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
               </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
             </children>
           </result_provider>
@@ -671,7 +1091,7 @@
             <scope scope_type="global_scope" />
             <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
               <node>
-                <node model="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" id="6638220681317433308" />
+                <node model="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" id="8793372375416262010" />
               </node>
             </holder>
           </query>
@@ -707,13 +1127,41 @@
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="AssertSequence" info="" excluded="false" expanded="false" isresult="true" results_section="false">
-                                    <role name="target" />
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="GivenList" info="" excluded="false" expanded="true" isresult="true" results_section="false">
+                                    <role name="root" />
                                     <node>
-                                      <node model="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" id="6638220681317433308" />
+                                      <node model="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" id="8793372375416262010" />
                                     </node>
                                   </data>
-                                  <children />
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="sequenceExpression" info="role: &lt;i&gt;linkDeclaration&lt;/i&gt;; in: &lt;i&gt;GivenList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false">
+                                        <role name="target" />
+                                        <node>
+                                          <node model="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" id="8793372375416383807" />
+                                        </node>
+                                      </data>
+                                      <children />
+                                    </child>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="alias" info="role: &lt;i&gt;conceptProperty&lt;/i&gt;; in: &lt;i&gt;GivenList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false">
+                                        <role name="target" />
+                                        <node>
+                                          <node model="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" id="8793372375416737074" />
+                                        </node>
+                                      </data>
+                                      <children />
+                                    </child>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="closure" info="role: &lt;i&gt;linkDeclaration&lt;/i&gt;; in: &lt;i&gt;GivenList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false">
+                                        <role name="target" />
+                                        <node>
+                                          <node model="r:375b3f7e-82a7-4754-bcb9-c8b5a1dd7d4b(unitTest2.structure)" id="8793372375416466798" />
+                                        </node>
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
                                 </child>
                               </children>
                             </child>
@@ -729,7 +1177,7 @@
                   </data>
                   <children>
                     <child>
-                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages">
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Descendants Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Descendants Usages">
                         <role name="category" />
                       </data>
                       <children>
@@ -745,6 +1193,44 @@
                               </data>
                               <children>
                                 <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="reduce_GivenList" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                    <role name="root" />
+                                    <node>
+                                      <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="3705184388150194650" />
+                                    </node>
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="closure" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                        <role name="target" />
+                                        <node>
+                                          <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="7281524309418796823" />
+                                        </node>
+                                      </data>
+                                      <children />
+                                    </child>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="list" info="role: &lt;i&gt;localVariableDeclaration&lt;/i&gt;; in: &lt;i&gt;&amp;lt;type&amp;gt; &amp;lt;var&amp;gt;;&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
+                                        <node>
+                                          <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="7281524309418785861" />
+                                        </node>
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="sequenceExpression" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node>
+                                              <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="7281524309419039001" />
+                                            </node>
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                                <child>
                                   <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="main" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                     <role name="root" />
                                     <node>
@@ -753,40 +1239,15 @@
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="reduce AssertSequence" info="role: &lt;i&gt;reductionMappingRule&lt;/i&gt;; in: &lt;i&gt;main&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                        <role name="target" />
-                                        <node />
-                                      </data>
-                                      <children />
-                                    </child>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="reduce AssertSequence" info="role: &lt;i&gt;reductionMappingRule&lt;/i&gt;; in: &lt;i&gt;main&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="reduce GivenList" info="role: &lt;i&gt;reductionMappingRule&lt;/i&gt;; in: &lt;i&gt;main&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
                                         <role name="target" />
                                         <node>
-                                          <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="6638220681317874396" />
+                                          <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="3705184388150194647" />
                                         </node>
                                       </data>
                                       <children />
                                     </child>
                                   </children>
-                                </child>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="reduce_AssertSequence_old" info="" excluded="false" expanded="false" isresult="true" results_section="true">
-                                    <role name="target" />
-                                    <node>
-                                      <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="6638220681317876576" />
-                                    </node>
-                                  </data>
-                                  <children />
-                                </child>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="reduce_AssertSequence" info="" excluded="false" expanded="false" isresult="true" results_section="true">
-                                    <role name="target" />
-                                    <node>
-                                      <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="6478881869180572282" />
-                                    </node>
-                                  </data>
-                                  <children />
                                 </child>
                               </children>
                             </child>
@@ -798,33 +1259,44 @@
                           </data>
                           <children>
                             <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="unitTest2.dataFlow" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                <role name="model" />
-                                <model uid="r:56c479fd-1573-4c65-afae-bc04544e6a5e(unitTest2.dataFlow)" />
-                              </data>
-                              <children>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="AssertSequence_DataFlow" info="" excluded="false" expanded="false" isresult="true" results_section="true">
-                                    <role name="target" />
-                                    <node>
-                                      <node model="r:56c479fd-1573-4c65-afae-bc04544e6a5e(unitTest2.dataFlow)" id="6638220681319164069" />
-                                    </node>
-                                  </data>
-                                  <children />
-                                </child>
-                              </children>
-                            </child>
-                            <child>
                               <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="unitTest2.editor" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                 <role name="model" />
                                 <model uid="r:77c1b34c-7e6f-4d64-8778-0db4d65ff323(unitTest2.editor)" />
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="AssertSequence_Editor" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="GivenList_Editor" info="" excluded="false" expanded="false" isresult="true" results_section="true">
                                     <role name="target" />
                                     <node>
-                                      <node model="r:77c1b34c-7e6f-4d64-8778-0db4d65ff323(unitTest2.editor)" id="6638220681317433802" />
+                                      <node model="r:77c1b34c-7e6f-4d64-8778-0db4d65ff323(unitTest2.editor)" id="8793372375416383799" />
+                                    </node>
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="%sequenceExpression%" info="role: &lt;i&gt;childCellModel&lt;/i&gt;; in: &lt;i&gt;collection&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                        <role name="target" />
+                                        <node>
+                                          <node model="r:77c1b34c-7e6f-4d64-8778-0db4d65ff323(unitTest2.editor)" id="7281524309418904779" />
+                                        </node>
+                                      </data>
+                                      <children />
+                                    </child>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="%closure%" info="role: &lt;i&gt;childCellModel&lt;/i&gt;; in: &lt;i&gt;collection&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                        <role name="target" />
+                                        <node>
+                                          <node model="r:77c1b34c-7e6f-4d64-8778-0db4d65ff323(unitTest2.editor)" id="3705184388149636001" />
+                                        </node>
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="testEditor" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                    <role name="target" />
+                                    <node>
+                                      <node model="r:77c1b34c-7e6f-4d64-8778-0db4d65ff323(unitTest2.editor)" id="3705184388149229628" />
                                     </node>
                                   </data>
                                   <children />
@@ -832,24 +1304,52 @@
                               </children>
                             </child>
                             <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="unitTest2.typesystem" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="unitTest2.actions" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                 <role name="model" />
-                                <model uid="r:7f913b3e-ce54-4b2f-a7a1-449f60ab56a5(unitTest2.typesystem)" />
+                                <model uid="r:d799f6ec-db32-4f2b-b720-fec3e2267c89(unitTest2.actions)" />
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="typeof_AssertSequence" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="init_asserts" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                     <role name="root" />
                                     <node>
-                                      <node model="r:7f913b3e-ce54-4b2f-a7a1-449f60ab56a5(unitTest2.typesystem)" id="93703267107205630" />
+                                      <node model="r:d799f6ec-db32-4f2b-b720-fec3e2267c89(unitTest2.actions)" id="3705184388149851892" />
                                     </node>
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="assertSequence" info="role: &lt;i&gt;applicableNode&lt;/i&gt;; in: &lt;i&gt;typeof_AssertSequence&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="closure" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
                                         <role name="target" />
                                         <node>
-                                          <node model="r:7f913b3e-ce54-4b2f-a7a1-449f60ab56a5(unitTest2.typesystem)" id="93703267107205632" />
+                                          <node model="r:d799f6ec-db32-4f2b-b720-fec3e2267c89(unitTest2.actions)" id="3705184388149946206" />
+                                        </node>
+                                      </data>
+                                      <children />
+                                    </child>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="closure" info="role: &lt;i&gt;localVariableDeclaration&lt;/i&gt;; in: &lt;i&gt;&amp;lt;type&amp;gt; &amp;lt;var&amp;gt;;&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
+                                        <node>
+                                          <node model="r:d799f6ec-db32-4f2b-b720-fec3e2267c89(unitTest2.actions)" id="3705184388149858365" />
+                                        </node>
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="closure" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node>
+                                              <node model="r:d799f6ec-db32-4f2b-b720-fec3e2267c89(unitTest2.actions)" id="3705184388149946204" />
+                                            </node>
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="node factory" info="role: &lt;i&gt;nodeFactory&lt;/i&gt;; in: &lt;i&gt;init_asserts&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                        <role name="target" />
+                                        <node>
+                                          <node model="r:d799f6ec-db32-4f2b-b720-fec3e2267c89(unitTest2.actions)" id="3705184388149851916" />
                                         </node>
                                       </data>
                                       <children />
@@ -863,84 +1363,106 @@
                       </children>
                     </child>
                     <child>
-                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Concept Instances&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Concept Instances">
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages">
                         <role name="category" />
                       </data>
                       <children>
                         <child>
-                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="unitTest2_Playground" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="76897293-f5b3-453c-b899-cf66d10c4ef4(unitTest2_Playground)">
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="unitTest2" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="0fc3c706-08d5-4586-bcb3-bbba888c0302(unitTest2)">
                             <role name="module" />
                           </data>
                           <children>
                             <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="playground" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="unitTest2.editor" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                 <role name="model" />
-                                <model uid="r:d8bc0c73-baed-4ebd-a44a-b11fd79ae541(playground)" />
+                                <model uid="r:77c1b34c-7e6f-4d64-8778-0db4d65ff323(unitTest2.editor)" />
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="MyConcepts_Test" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="GivenList_Editor" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                    <role name="target" />
+                                    <node>
+                                      <node model="r:77c1b34c-7e6f-4d64-8778-0db4d65ff323(unitTest2.editor)" id="8793372375416383799" />
+                                    </node>
+                                  </data>
+                                  <children />
+                                </child>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="testEditor" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                    <role name="target" />
+                                    <node>
+                                      <node model="r:77c1b34c-7e6f-4d64-8778-0db4d65ff323(unitTest2.editor)" id="3705184388149229628" />
+                                    </node>
+                                  </data>
+                                  <children />
+                                </child>
+                              </children>
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="unitTest2.actions" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:d799f6ec-db32-4f2b-b720-fec3e2267c89(unitTest2.actions)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="init_asserts" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                     <role name="root" />
                                     <node>
-                                      <node model="r:d8bc0c73-baed-4ebd-a44a-b11fd79ae541(playground)" id="1860721426518478164" />
+                                      <node model="r:d799f6ec-db32-4f2b-b720-fec3e2267c89(unitTest2.actions)" id="3705184388149851892" />
                                     </node>
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="test_assertSequenceConcept():void" info="role: &lt;i&gt;testMethod&lt;/i&gt;; in: &lt;i&gt;TestMethodList&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                        <role name="root to target" />
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="node factory" info="role: &lt;i&gt;nodeFactory&lt;/i&gt;; in: &lt;i&gt;init_asserts&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                        <role name="target" />
                                         <node>
-                                          <node model="r:d8bc0c73-baed-4ebd-a44a-b11fd79ae541(playground)" id="1860721426518478171" />
+                                          <node model="r:d799f6ec-db32-4f2b-b720-fec3e2267c89(unitTest2.actions)" id="3705184388149851916" />
                                         </node>
                                       </data>
-                                      <children>
-                                        <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="assert sequence" info="role: &lt;i&gt;statement&lt;/i&gt;; in: &lt;i&gt;StatementList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                            <role name="target" />
-                                            <node>
-                                              <node model="r:d8bc0c73-baed-4ebd-a44a-b11fd79ae541(playground)" id="1860721426518478185" />
-                                            </node>
-                                          </data>
-                                          <children />
-                                        </child>
-                                        <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="assert sequence" info="role: &lt;i&gt;statement&lt;/i&gt;; in: &lt;i&gt;StatementList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                            <role name="target" />
-                                            <node>
-                                              <node model="r:d8bc0c73-baed-4ebd-a44a-b11fd79ae541(playground)" id="1860721426518478202" />
-                                            </node>
-                                          </data>
-                                          <children />
-                                        </child>
-                                      </children>
+                                      <children />
                                     </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="unitTest2 (generator/main)" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="fecb78f7-0b98-49f7-a42e-93d10b2123f9(unitTest2#3705184388150172504)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="unitTest2.generator.template.main" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="reduce_GivenList" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                    <role name="target" />
+                                    <node>
+                                      <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="3705184388150194650" />
+                                    </node>
+                                  </data>
+                                  <children />
+                                </child>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="main" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                    <role name="root" />
+                                    <node>
+                                      <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="3705184388150172505" />
+                                    </node>
+                                  </data>
+                                  <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="test_listLiteralTest():void" info="role: &lt;i&gt;testMethod&lt;/i&gt;; in: &lt;i&gt;TestMethodList&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                        <role name="root to target" />
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="reduce GivenList" info="role: &lt;i&gt;reductionMappingRule&lt;/i&gt;; in: &lt;i&gt;main&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                        <role name="target" />
                                         <node>
-                                          <node model="r:d8bc0c73-baed-4ebd-a44a-b11fd79ae541(playground)" id="1860721426518478213" />
+                                          <node model="r:a23257c8-5547-447a-b1ce-685b86bca180(unitTest2.generator.template.main@generator)" id="3705184388150194647" />
                                         </node>
                                       </data>
-                                      <children>
-                                        <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="assert sequence" info="role: &lt;i&gt;statement&lt;/i&gt;; in: &lt;i&gt;StatementList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                            <role name="target" />
-                                            <node>
-                                              <node model="r:d8bc0c73-baed-4ebd-a44a-b11fd79ae541(playground)" id="1860721426518478235" />
-                                            </node>
-                                          </data>
-                                          <children />
-                                        </child>
-                                        <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="assert sequence" info="role: &lt;i&gt;statement&lt;/i&gt;; in: &lt;i&gt;StatementList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                            <role name="target" />
-                                            <node>
-                                              <node model="r:d8bc0c73-baed-4ebd-a44a-b11fd79ae541(playground)" id="1860721426518478217" />
-                                            </node>
-                                          </data>
-                                          <children />
-                                        </child>
-                                      </children>
+                                      <children />
                                     </child>
                                   </children>
                                 </child>
@@ -1033,7 +1555,7 @@
     </GetOptions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://jetbrains.mps.baseLanguage.unitTest.structure/MessageHolder">
+    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/HeadSetOperation">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
@@ -1052,12 +1574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://unitTest2.actions/shouldBe">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/ListType">
+    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/RemoveAllSetElementsOperation">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
@@ -1076,7 +1593,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://jetbrains.mps.baseLanguage.structure/PrimitiveType">
+    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/ClearSetOperation">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
@@ -1095,7 +1612,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://jetbrains.mps.baseLanguage.structure/IntegerType">
+    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/AbstractSetOperation">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
@@ -1114,22 +1631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator/prep_FunctionType_ClassCreator_adaptations">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solutions/testLang2Solution/source_gen/playground/MyConcepts_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="23" selection-start="3557" selection-end="3557" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="mps://unitTest2.structure/GivenList">
+    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/AddAllSetElementsOperation">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
@@ -1148,9 +1650,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://jetbrains.mps.baseLanguage.closures.structure/ClosureLiteral">
+    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/RemoveSetElementOperation">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
             <tab index="0" />
             <tab index="0" />
@@ -1167,7 +1669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://playground/MyConcepts_Test">
+    <entry file="mps://unitTest2.generator.template.util/CompareUtils">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
@@ -1175,11 +1677,6 @@
             <tab index="0" />
           </inner_tabs>
         </state>
-      </provider>
-    </entry>
-    <entry file="mps://unitTest2.actions/init_asserts">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
     <entry file="mps://unitTest2.generator.template.main@generator/main">
@@ -1187,9 +1684,19 @@
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://unitTest2.structure/SequenceLiteral">
+    <entry file="mps://unitTest2.actions/init_asserts">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/baseLang_samples/source_gen/samples/BaseLangCollections_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="403" column="28" selection-start="25527" selection-end="25527" vertical-scroll-proportion="0.73109245" />
+      </provider>
+    </entry>
+    <entry file="mps://unitTest2.structure/GivenSet">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="9">
           <inner_tabs>
             <tab index="0" />
             <tab index="0" />
@@ -1206,9 +1713,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://unitTest2.structure/MyClosureLiteral">
+    <entry file="mps://unitTest2.structure/GivenList">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="9">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/SortedSetOperation">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/SubSetOperation">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/TreeSetCreator">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
             <tab index="0" />
             <tab index="0" />

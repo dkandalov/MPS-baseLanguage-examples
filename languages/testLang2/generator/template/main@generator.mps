@@ -340,6 +340,12 @@
         </node>
       </node>
     </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="4382899558371579224">
+      <link role="applicableConcept" targetNodeId="1.4382899558371550923" resolveInfo="GivenSet" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="4382899558371579226">
+        <link role="template" targetNodeId="4382899558371579227" resolveInfo="reduce_GivenSet" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="3705184388150194650">
     <property name="name" value="reduce_GivenList" />
@@ -367,6 +373,22 @@
                               </node>
                               <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="7281524309419039002" />
                             </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="propertyMacro$property_attribute$name" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="4382899558372038100">
+                <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="4382899558372038101">
+                  <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4382899558372038102">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4382899558372038105">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4382899558372038107">
+                        <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="4382899558372038106" />
+                        <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_CreateUniqueName" id="4382899558372038111">
+                          <node role="baseName" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="4382899558372038113">
+                            <property name="value" value="list" />
                           </node>
                         </node>
                       </node>
@@ -923,6 +945,85 @@
         </node>
         <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="6478881869180574496" />
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="4382899558371579227">
+    <property name="name" value="reduce_GivenSet" />
+    <link role="applicableConcept" targetNodeId="1.4382899558371550923" resolveInfo="GivenSet" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="4382899558371579230">
+      <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4382899558371579231">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="4382899558371581443">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4382899558371581444">
+            <property name="name" value="s" />
+            <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="4382899558371581445">
+              <node role="elementType" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="4382899558371581447" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="4382899558371581449">
+              <node role="creator" type="jetbrains.mps.baseLanguage.collections.structure.HashSetCreator" id="4382899558371597440">
+                <node role="elementType" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="4382899558371597442" />
+                <node role="copyFrom" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="4382899558371597445">
+                  <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" id="4382899558371597448">
+                    <node role="sourceNodeQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" id="4382899558371597451">
+                      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4382899558371597452">
+                        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4382899558371597453">
+                          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4382899558371597454">
+                            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4382899558371597455">
+                              <link role="link" targetNodeId="1.4382899558371550925" />
+                            </node>
+                            <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="4382899558371597456" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="propertyMacro$property_attribute$name" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="4382899558372035907">
+              <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="4382899558372035908">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4382899558372035909">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4382899558372038090">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4382899558372038092">
+                      <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="4382899558372038091" />
+                      <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_CreateUniqueName" id="4382899558372038096">
+                        <node role="baseName" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="4382899558372038098">
+                          <property name="value" value="set" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4382899558371579247">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="4382899558371667871">
+            <link role="baseMethodDeclaration" targetNodeId="3.4382899558371667820" resolveInfo="invokeOnSet" />
+            <link role="classConcept" targetNodeId="3.6478881869180321053" resolveInfo="CompareUtils" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="4382899558371667872">
+              <link role="variableDeclaration" targetNodeId="4382899558371581444" resolveInfo="s" />
+            </node>
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="4382899558371667887">
+              <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" id="4382899558371667891">
+                <node role="sourceNodeQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" id="4382899558371667894">
+                  <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4382899558371667895">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4382899558371667896">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4382899558371667897">
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4382899558371667898">
+                          <link role="link" targetNodeId="1.4382899558371550926" />
+                        </node>
+                        <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="4382899558371667899" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="4382899558371579258" />
     </node>
   </node>
 </model>

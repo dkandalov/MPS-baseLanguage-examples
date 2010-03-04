@@ -214,6 +214,47 @@
         </node>
       </node>
     </node>
+    <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="4382899558371667820">
+      <property name="name" value="invokeOnSet" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="4382899558371667821" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="4382899558371667822" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4382899558371667823">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4382899558371667824">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4382899558371667825">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="4382899558371667826">
+              <link role="variableDeclaration" targetNodeId="4382899558371667833" resolveInfo="closure" />
+            </node>
+            <node role="operation" type="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" id="4382899558371667827">
+              <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="4382899558371667828">
+                <link role="variableDeclaration" targetNodeId="4382899558371667830" resolveInfo="list" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="typeVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" id="4382899558371667829">
+        <property name="name" value="T" />
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="4382899558371667830">
+        <property name="name" value="list" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="4382899558371667853">
+          <node role="elementType" type="jetbrains.mps.baseLanguage.structure.TypeVariableReference" id="4382899558371667854">
+            <link role="typeVariableDeclaration" targetNodeId="4382899558371667829" resolveInfo="T" />
+          </node>
+        </node>
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="4382899558371667833">
+        <property name="name" value="closure" />
+        <node role="type" type="jetbrains.mps.baseLanguage.closures.structure.FunctionType" id="4382899558371667834">
+          <node role="resultType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="4382899558371667835" />
+          <node role="parameterType" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="4382899558371667862">
+            <node role="elementType" type="jetbrains.mps.baseLanguage.structure.TypeVariableReference" id="4382899558371667863">
+              <link role="typeVariableDeclaration" targetNodeId="4382899558371667829" resolveInfo="T" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="6478881869180321054" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" id="6478881869180321055">
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="6478881869180321056" />

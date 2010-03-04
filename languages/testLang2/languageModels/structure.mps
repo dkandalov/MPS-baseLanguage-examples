@@ -170,5 +170,25 @@
     <property name="name" value="MyClosureLiteral" />
     <link role="extends" targetNodeId="4v.1199569711397" resolveInfo="ClosureLiteral" />
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4382899558371550923">
+    <property name="name" value="GivenSet" />
+    <link role="extends" targetNodeId="2.1068580123157" resolveInfo="Statement" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="4382899558371550924">
+      <property name="value" value="given set" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4382899558371550925">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="sequenceExpression" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4382899558371550926">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="closure" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="7281524309419948034" resolveInfo="MyClosureLiteral" />
+    </node>
+  </node>
 </model>
 
