@@ -3,3 +3,4 @@ Contains several test cases as a way to explore jetbrains.mps.baseLanguage.
 Currently it only covers:
  - sequence type
  - list type
+ - set type

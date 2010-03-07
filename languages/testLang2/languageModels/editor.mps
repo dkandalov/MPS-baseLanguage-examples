@@ -194,5 +194,29 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="8455258197626035055">
+    <link role="conceptDeclaration" targetNodeId="1.8455258197626035051" resolveInfo="GivenSortedSet" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8455258197626035057">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="8455258197626035058" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8455258197626035059">
+        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="8455258197626035060" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="8455258197626035061">
+          <property name="text" value="given sorted set" />
+          <link role="styleClass" targetNodeId="6638220681319270322" resolveInfo="Assertion" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="8455258197626035062">
+          <property name="attractsFocus" value="2" />
+          <link role="relationDeclaration" targetNodeId="1.8793372375416383807" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8455258197626035063">
+        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="8455258197626035064" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="8455258197626035065">
+          <property name="attractsFocus" value="3" />
+          <link role="relationDeclaration" targetNodeId="1.8793372375416466798" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

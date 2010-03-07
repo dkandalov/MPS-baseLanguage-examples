@@ -190,5 +190,25 @@
       <link role="target" targetNodeId="7281524309419948034" resolveInfo="MyClosureLiteral" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8455258197626035051">
+    <property name="name" value="GivenSortedSet" />
+    <link role="extends" targetNodeId="2.1068580123157" resolveInfo="Statement" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="8455258197626035052">
+      <property name="value" value="given sorted set" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8455258197626035053">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="sequenceExpression" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8455258197626035054">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="closure" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="7281524309419948034" resolveInfo="MyClosureLiteral" />
+    </node>
+  </node>
 </model>
 
