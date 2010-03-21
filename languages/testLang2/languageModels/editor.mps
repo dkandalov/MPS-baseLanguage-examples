@@ -218,5 +218,31 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="7917405618442421484">
+    <link role="conceptDeclaration" targetNodeId="1.7917405618442421482" resolveInfo="MapLiteral" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="7917405618442421486">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="7917405618442421487">
+        <property name="text" value="{" />
+        <link role="styleClass" targetNodeId="4v.1215091279307" resolveInfo="LeftBrace" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" id="7917405618442421488">
+          <property name="flag" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="7917405618442421489">
+        <property name="separatorText" value="," />
+        <link role="relationDeclaration" targetNodeId="1.7917405618442421483" />
+        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="7917405618442421490" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="7917405618442421491">
+        <property name="text" value="}" />
+        <link role="styleClass" targetNodeId="4v.1215091331565" resolveInfo="RightBrace" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="7917405618442421492">
+          <property name="flag" value="true" />
+        </node>
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="7917405618442421493" />
+    </node>
+  </node>
 </model>
 

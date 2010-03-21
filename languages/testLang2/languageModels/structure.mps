@@ -210,5 +210,24 @@
       <link role="target" targetNodeId="7281524309419948034" resolveInfo="MyClosureLiteral" />
     </node>
   </node>
+  <visible index="5" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7917405618442421482">
+    <property name="name" value="MapLiteral" />
+    <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7917405618442563506">
+      <property name="value" value="{" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7917405618442563508">
+      <property name="value" value="map literal" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7917405618442421483">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="entries" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="5v.1206655735055" resolveInfo="MapEntry" />
+    </node>
+  </node>
 </model>
 
